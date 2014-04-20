@@ -1,0 +1,10 @@
+.\output\csyscheck.o: ..\src\11DisMenu\CSysCheck.c
+.\output\csyscheck.o: ..\src\APP\Config.h
+.\output\csyscheck.o: ..\src\11DisMenu\CSysCheck.h
+.\output\csyscheck.o: ..\src\Board\lcd.h
+.\output\csyscheck.o: ..\inc\lpc17xx.h
+.\output\csyscheck.o: ..\inc\core_cm3.h
+.\output\csyscheck.o: f:\Keil\ARM\RV31\Inc\stdint.h
+.\output\csyscheck.o: ..\inc\system_LPC17xx.h
+.\output\csyscheck.o: ..\src\Share\CGetCompSum.h
+.\output\csyscheck.o: ..\src\Share\CFlashParam.h

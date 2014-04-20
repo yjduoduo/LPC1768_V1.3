@@ -1,0 +1,78 @@
+*** Creating Trace Output File '.\output\139W.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\startup_lpc17xx.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_lpc17xx.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\ssp.o"'
+### List of Objects: adding '".\output\delay.o"'
+### List of Objects: adding '".\output\i2c.o"'
+### List of Objects: adding '".\output\uart.o"'
+### List of Objects: adding '".\output\gpioinit.o"'
+### List of Objects: adding '".\output\extint.o"'
+### List of Objects: adding '".\output\ctime.o"'
+### List of Objects: adding '".\output\ctimedef.o"'
+### List of Objects: adding '".\output\pwm.o"'
+### List of Objects: adding '".\output\lcd.o"'
+### List of Objects: adding '".\output\pcf8563.o"'
+### List of Objects: adding '".\output\key.o"'
+### List of Objects: adding '".\output\cled.o"'
+### List of Objects: adding '".\output\crelay.o"'
+### List of Objects: adding '".\output\buffer.o"'
+### List of Objects: adding '".\output\cgrapparam.o"'
+### List of Objects: adding '".\output\csetcurrent.o"'
+### List of Objects: adding '".\output\cflashparam.o"'
+### List of Objects: adding '".\output\csendtoflash.o"'
+### List of Objects: adding '".\output\cgetcompsum.o"'
+### List of Objects: adding '".\output\cspeaker.o"'
+### List of Objects: adding '".\output\cintstend.o"'
+### List of Objects: adding '".\output\initialization.o"'
+### List of Objects: adding '".\output\alarmenu.o"'
+### List of Objects: adding '".\output\batterylow.o"'
+### List of Objects: adding '".\output\breakdown.o"'
+### List of Objects: adding '".\output\checkmenu.o"'
+### List of Objects: adding '".\output\mainmenu.o"'
+### List of Objects: adding '".\output\setmenu.o"'
+### List of Objects: adding '".\output\startmenu.o"'
+### List of Objects: adding '".\output\testmenu.o"'
+### List of Objects: adding '".\output\clocalset.o"'
+### List of Objects: adding '".\output\ccompreg.o"'
+### List of Objects: adding '".\output\ccompset.o"'
+### List of Objects: adding '".\output\cdatemod.o"'
+### List of Objects: adding '".\output\cannotate.o"'
+### List of Objects: adding '".\output\ccompstat.o"'
+### List of Objects: adding '".\output\csyscheck.o"'
+### List of Objects: adding '".\output\ccompinten.o"'
+### List of Objects: adding '".\output\chistorylist.o"'
+### List of Objects: adding '".\output\ctestself.o"'
+### List of Objects: adding '".\output\cmodelfault.o"'
+### List of Objects: adding '".\output\csysreset.o"'
+### List of Objects: adding '".\output\ccomhandle.o"'
+### List of Objects: adding '".\output\ccompara.o"'
+### List of Objects: adding '".\output\ccomann.o"'
+### List of Objects: adding '".\output\caddresscount.o"'
+### List of Objects: adding '".\output\csendto195.o"'
+### List of Objects: adding '".\output\runfunction.o"'
+### List of Objects: adding '".\output\tasklist.o"'
+### List of Objects: adding '".\output\ctasksure.o"'
+### List of Objects: adding '".\output\cgetgrap.o"'
+### List of Objects: adding '".\output\ctaskreturn.o"'
+### List of Objects: adding '".\output\ckeycounter.o"'
+### List of Objects: adding '".\output\ctaskdown.o"'
+### List of Objects: adding '".\output\ctaskup.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\startup_lpc17xx.o" ".\output\core_cm3.o" ".\output\system_lpc17xx.o" ".\output\main.o" ".\output\ssp.o" ".\output\delay.o" ".\output\i2c.o" ".\output\uart.o" ".\output\gpioinit.o" ".\output\extint.o" ".\output\ctime.o" ".\output\ctimedef.o" ".\output\pwm.o" ".\output\lcd.o" ".\output\pcf8563.o" ".\output\key.o" ".\output\cled.o" ".\output\crelay.o" ".\output\buffer.o" ".\output\cgrapparam.o" ".\output\csetcurrent.o" ".\output\cflashparam.o" ".\output\csendtoflash.o" ".\output\cgetcompsum.o" ".\output\cspeaker.o" ".\output\cintstend.o" ".\output\initialization.o" ".\output\alarmenu.o" ".\output\batterylow.o" ".\output\breakdown.o" ".\output\checkmenu.o" ".\output\mainmenu.o" ".\output\setmenu.o" ".\output\startmenu.o" ".\output\testmenu.o" ".\output\clocalset.o" ".\output\ccompreg.o" ".\output\ccompset.o" ".\output\cdatemod.o" ".\output\cannotate.o" ".\output\ccompstat.o" ".\output\csyscheck.o" ".\output\ccompinten.o" ".\output\chistorylist.o" ".\output\ctestself.o" ".\output\cmodelfault.o" ".\output\csysreset.o" ".\output\ccomhandle.o" ".\output\ccompara.o" ".\output\ccomann.o" ".\output\caddresscount.o" ".\output\csendto195.o" ".\output\runfunction.o" ".\output\tasklist.o" ".\output\ctasksure.o" ".\output\cgetgrap.o" ".\output\ctaskreturn.o" ".\output\ckeycounter.o" ".\output\ctaskdown.o" ".\output\ctaskup.o" --strict --scatter ".\output\139W.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\list\139W.map" -o ".\output\139W.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\139W.axf'
+### ADS-LD Command File: '.\output\139W.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\139W.lnp', Handle=0x000002E8
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\139W.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
